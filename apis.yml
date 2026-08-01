@@ -1,7 +1,28 @@
 aid: pass-it-down
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pass-it-down.png
 name: Pass It Down
-description: Pass It Down is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pass It Down is a Chattanooga, Tennessee digital storytelling company that helps
+  museums, libraries, universities, sports organizations, brands, and nonprofits
+  build interactive online exhibits, digital collections, timelines, and cloud-based
+  touchscreen kiosks. Its stated mission is that every organization should be able to
+  build Smithsonian-quality exhibits in minutes for a fraction of the cost. Related
+  properties include Iconic Moments (a cultural-heritage NFT marketplace) and a
+  sports-storytelling offering. The company was surfaced as a Techstars portfolio
+  company and added to the API Evangelist network. As of this enrichment pass Pass It
+  Down publishes a marketing/product website but no public developer API, documentation,
+  SDKs, packages, or other machine-readable surface.
 url: https://raw.githubusercontent.com/api-evangelist/pass-it-down/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Storytelling
+- Museums
+- Cultural Heritage
+- Digital Exhibits
+- Interactive Kiosks
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://passitdown.com/
+- type: About
+  url: https://passitdown.com/about-us
+- type: SignUp
+  url: https://passitdown.com/request-demo
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
